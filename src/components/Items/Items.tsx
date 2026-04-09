@@ -6,7 +6,7 @@ const Items = () => {
   const data: ItemsDataModel[] = ItemsData;
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-10 px-10">
       {data.map((ele) => (
         <ItemCard key={ele.id} item={ele} />
       ))}
