@@ -7,7 +7,7 @@ const ItemCard: React.FC<{ item: ItemsDataModel }> = ({ item }) => {
       <img
         src={item.image}
         alt={item.name}
-        className="w-full h-auto object-cover rounded-lg blur-sm"
+        className="w-full h-auto object-cover rounded-lg "
       />
     </div>
   );
