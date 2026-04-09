@@ -1,18 +1,17 @@
-import { use } from "react"
-import ItemCard from "../../Cards/ItemCard/ItemCard"
-import { ItemsData } from "../../Data/ItemsData"
-import type { ItemsDataModel } from "../../Models/ItemsData.model"
+import ItemCard from "../../Cards/ItemCard/ItemCard";
+import { ItemsData } from "../../Data/ItemsData";
+import type { ItemsDataModel } from "../../Models/ItemsData.model";
 
 const Items = () => {
-
-    const itemsData:ItemsDataModel[] = use<ItemsDataModel[]>(ItemsData)
+  const data: ItemsDataModel[] = ItemsData;
 
   return (
     <div className="grid grid-cols-4 gap-4">
-
-        itemsData.map((ele) => <ItemCard></ItemCard> )
+      {data.map((ele) => (
+        <ItemCard key={ele.id} item={ele} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Items
+export default Items;

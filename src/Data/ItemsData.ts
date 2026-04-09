@@ -5,7 +5,7 @@ export const ItemsData = [
     description:
       "Protein Source is a delicial food item. it craeted with meshed potato and some other ingredients. it is very tasty and healthy",
     image:
-      "https://www.cookingclassy.com/wp-content/uploads/2019/01/vorta-1.jpg",
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/14727/conversions/28e8e464-f55e-4b32-9bab-dc990d8cc927-thumb.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const ItemsData = [
     description:
       "Sobji is a delicial food item. it craeted with meshed potato and some other ingredients. it is very tasty and healthy",
     image:
-      "https://www.cookingclassy.com/wp-content/uploads/2019/01/vorta-1.jpg",
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/14727/conversions/28e8e464-f55e-4b32-9bab-dc990d8cc927-thumb.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const ItemsData = [
     description:
       "Vorta/ vaji / vaja is a delicial food item. it craeted with meshed potato and some other ingredients. it is very tasty and healthy",
     image:
-      "https://www.cookingclassy.com/wp-content/uploads/2019/01/vorta-1.jpg",
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/14727/conversions/28e8e464-f55e-4b32-9bab-dc990d8cc927-thumb.jpg",
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const ItemsData = [
     description:
       "Dal is a delicial food item. it craeted with meshed potato and some other ingredients. it is very tasty and healthy",
     image:
-      "https://www.cookingclassy.com/wp-content/uploads/2019/01/vorta-1.jpg",
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/14727/conversions/28e8e464-f55e-4b32-9bab-dc990d8cc927-thumb.jpg",
   },
 ];
